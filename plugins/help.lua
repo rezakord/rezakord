@@ -25,8 +25,6 @@ local mods = [[
 
 !all
 
-!addsudo
-
 !set[photo | name]
 
 !set [rules | about]

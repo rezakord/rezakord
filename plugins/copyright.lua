@@ -1,8 +1,8 @@
 do
 
 local function run(msg, matches)
-  if matches[1]:lower() == 'telemanager' or 'telemanagerplus' then --change this with anything you want
-    send_document(get_receiver(msg), "./data/me/telemanager.webp", ok_cb, false) --put here sticker location(if you want)
+  if matches[1]:lower() == 'vox' or 'voxtg' then --change this with anything you want
+    send_document(get_receiver(msg), "./data/me/vox.webp", ok_cb, false) --put here sticker location(if you want)
       return [[ 
   
 Vox v2 🌐

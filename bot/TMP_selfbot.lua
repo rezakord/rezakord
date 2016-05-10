@@ -228,27 +228,17 @@ function create_config( )
     sudo_users = {161246734(204820682),tonumber(our_id)},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Teleseed v2 - Open Source
-An advance Administration bot based on yagop/telegram-bot 
+    about_text = [[Vox v4.2 🌐
 
-https://github.com/SEEDTEAM/TeleSeed
+Anti Spammer Bot 💀💉
 
-Our team!
-Alphonse (@Iwals)
-I M /-\ N (@Imandaneshi)
-Siyanew (@Siyanew)
-Rondoozle (@Potus)
-Seyedan (@Seyedan25)
+Vox is good and fast speed 🚀
 
-Special thanks to:
-Juan Potato
-Siyanew
-Topkecleon
-Vamptacus
+Online for ever 🛡
 
-Our channels:
-English: @TeleSeedCH
-Persian: @IranSeed
+Sudo and Developer : @Pouya_Mt
+
+Vox Team 🎈
 ]],
     help_text_realm = [[
 Realm Commands:

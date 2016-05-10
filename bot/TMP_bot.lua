@@ -241,7 +241,6 @@ function create_config( )
     "echo",
     "echoset",
     "echoget",
-    "feedback",
     "filtering",
     "google",
     "help",

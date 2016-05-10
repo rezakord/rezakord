@@ -1,11 +1,11 @@
 do
 
 function run(msg, matches)
-  return [[VoxTg
+  return [[
   
-  Bot Version : 2.2.0
+  Vox Bot v2
   
-  For more Information send /vox to chat ]]
+  For more Information send /Vox to chat ]]
 end
 
 return {

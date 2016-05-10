@@ -159,7 +159,7 @@ member
  
  !feedback [msg]
  
- !telemanagerplus
+ !Vox
  
  !sticker [TXT]
  ==========================
@@ -179,7 +179,6 @@ member
  local sudo = [[
  
  راهنما فارسی سودو ها :
- @telemanager_ch
  
  !addadmin [ID | Username]
  

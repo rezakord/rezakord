@@ -11,7 +11,7 @@ do
 
    
   local sends = send_msg(chat, fuse, ok_cb, false)
-  return 'Your FeedBack Sent To Our Team Successfully!'
+  return 'Your FeedBack Sent To Vox Team Successfully!'
  
  end
  end

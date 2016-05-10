@@ -113,8 +113,6 @@ member
  
  !setowner [ID | Reply]
  
- !addsudo
- 
  !setrank [Reply | ID | Username]
  ==========================
  به علاوه تمامی دستورات رنک های :
@@ -160,8 +158,6 @@ member
  !tex [Msg]
  
  !feedback [msg]
- 
- !share
  
  !telemanagerplus
  

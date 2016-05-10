@@ -1,11 +1,11 @@
 do
 
 function run(msg, matches)
-  return [[TeleManagerPlus
+  return [[VoxTg
   
   Bot Version : 2.2.0
   
-  For more Information send /telemanagerplus to chat ]]
+  For more Information send /vox to chat ]]
 end
 
 return {

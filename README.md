@@ -5,8 +5,8 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 
 # Let's install the bot.
 cd $HOME
-git clone https://github.com/telemanagerplus/TeleManagerPlus.git
-cd TeleManagerPlus
+git clone https://github.com/Pouya12/PVS.git
+cd PVS
 chmod +x launchfix2.sh
 chmod +x launch.sh
 chmod +x autolaunch.sh
@@ -17,25 +17,10 @@ cd bin
 ./luarocks-5.2 install lub
 ./luarocks-5.2 install luaexpat
 cd $HOME
-cd TeleManagerPlus
+cd PVS
 ./launchfix2.sh install
 ./autolaunch.sh # Enter a phone number & confirmation code.
 ```
-**README 1 ghesmatish avaz shod dobare KHOB va BA DEQAT bekhonid o anjam bedid ta be moshkel nakhorid**
-
-**دقـــــــــــيق مثل همین عمل کنید دقـــــــــــــیق**
-
-
-
-**برای اینکه بات روی حالت سلف بات راه اندازی بشه،از دستور زیر استفاده کنید:**
-
-``./selfbot.sh``
-
-
-# Auto Launch Bot With :
-
-**./autolaunch.sh**
-
 
 # Auto Leave Confiure :
 

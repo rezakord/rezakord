@@ -21,9 +21,3 @@ cd PVS
 ./launchfix2.sh install
 ./autolaunch.sh # Enter a phone number & confirmation code.
 ```
-
-# Auto Leave Confiure :
-
-**go to onservice plugin and config it !**
-
-***Then Go To banhammer plugin and see line 59 - 71 and do anything that i tell there!***

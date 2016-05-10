@@ -243,7 +243,6 @@ function create_config( )
     "echoget",
     "feedback",
     "filtering",
-    "getplug",
     "google",
     "help",
     "id",
@@ -257,16 +256,14 @@ function create_config( )
     "me",
     "plugins",
     "qrcode",
-    "share",
     "tex",
     "version",
     "setwelcome",
     "getwelcome",
     "set_type",
-    "server",
     "voice"
     },
-    sudo_users = {},--Sudo users
+    sudo_users = {161246734},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     text1 = [[

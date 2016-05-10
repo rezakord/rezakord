@@ -7,7 +7,7 @@ do
  
  
    local text = matches[1]
-   local chat = "chat#id".. --put your feedback Group ID
+   local chat = "chat#id"..
 
    
   local sends = send_msg(chat, fuse, ok_cb, false)

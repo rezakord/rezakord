@@ -262,7 +262,7 @@ function create_config( )
     "set_type",
     "voice"
     },
-    sudo_users = {161246734},--Sudo users
+    sudo_users = {224430501},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     text1 = [[

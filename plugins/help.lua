@@ -85,7 +85,8 @@ local mods = [[
 !bc [GP-ID] [MSG]
  
 !all [GP-ID]
- !addadmin [ID | Username]
+ 
+!addadmin [ID | Username]
  
 !removeadmin [ID | Username]
  
@@ -198,7 +199,8 @@ local mods = [[
 !bc [GP-ID] [MSG]
  
 !all [GP-ID]
- !addadmin [ID | Username]
+
+!addadmin [ID | Username]
  
 !removeadmin [ID | Username]
  
@@ -310,7 +312,8 @@ local mods = [[
 !bc [GP-ID] [MSG]
  
 !all [GP-ID]
- !addadmin [ID | Username]
+
+!addadmin [ID | Username]
  
 !removeadmin [ID | Username]
  
@@ -422,7 +425,8 @@ local mods = [[
 !bc [GP-ID] [MSG]
  
 !all [GP-ID]
- !addadmin [ID | Username]
+
+!addadmin [ID | Username]
  
 !removeadmin [ID | Username]
  
@@ -534,7 +538,8 @@ local mods = [[
 !bc [GP-ID] [MSG]
  
 !all [GP-ID]
- !addadmin [ID | Username]
+
+!addadmin [ID | Username]
  
 !removeadmin [ID | Username]
  

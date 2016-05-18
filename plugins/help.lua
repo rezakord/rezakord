@@ -3,7 +3,26 @@ do
 function run(msg, matches)
 
 local mods = [[ 
-راهنما فارسی مدیران :
+
+!calc [formula]
+ 
+!get [Value]
+ 
+!filterlist
+ 
+!me
+ 
+!voice [MSG]
+ 
+!time
+ 
+!time [Area]
+ 
+!tex [Msg]
+ 
+!Vox
+ 
+!sticker [Text]
 
 !kick [Username | ID | Reply]
 
@@ -41,179 +60,508 @@ local mods = [[
 
 !plugins [-+] (Plug Name) chat
 
-==========================
-به علاوه تمامی دستورات رنک :
-member
-==========================
- جهت دریافت راهنمای رنک های دیگر میتوانید از دستورات زیر استفاده کنید :
+!promote [Reply | ID | Username]
  
- !help owner 
- راهنمای صاحبان
+!demote [Reply | ID | Username]
  
- !help mod
-راهنمای مدیران
+!setowner [ID | Reply]
+ 
+!setrank [Reply | ID | Username]
 
-!help member
-راهنمای اعضای معمولی
+!banall [Reply | ID | Username]
+ 
+!unbanall [ID]
+ 
+!add 
+ 
+!rem
+ 
+!leave
+ 
+!setowner [ID | Reply]
+ 
+!kill chat [ID]
+ 
+!bc [GP-ID] [MSG]
+ 
+!all [GP-ID]
+ !addadmin [ID | Username]
+ 
+!removeadmin [ID | Username]
+ 
+!creategroup [Name]
+ 
+!up [Name.format] [Text]
+ 
+!dl [name.format]
+ 
+!echo> [name.format] [Text]
+ 
+!invite [Username | ID | Reply]
+ 
+!stats bot
+ 
+!plugins 
+ 
+!plugins [+-] [Plugname]
+ 
+!reload
 
+!s2a [Text]
+
+!block [user]
+
+!img [Term]
  ]]
 
  
  local admin = [[ 
  
- راهنمای فارسی ادمین ها :
+!calc [formula]
  
- !banall [Reply | ID | Username]
+!get [Value]
  
- !unbanall [ID]
+!filterlist
  
- !add 
+!me
  
- !rem
+!voice [MSG]
  
- !leave
+!time
  
- !setowner [ID | Reply]
+!time [Area]
  
- !kill chat [ID]
+!tex [Msg]
  
- !bc [GP-ID] [MSG]
+!Vox
  
- !all [GP-ID]
- ==========================
- به علاوه تمامی دستورات رنک های :
- owner
- و
- mod
- و
- member
-========================== 
- جهت دریافت راهنمای رنک های دیگر میتوانید از دستورات زیر استفاده کنید :
- 
- !help owner 
- راهنمای صاحبان
- 
- !help mod
-راهنمای مدیران
+!sticker [Text]
 
-!help member
-راهنمای اعضای معمولی
+!kick [Username | ID | Reply]
+
+!ban [username | ID | Reply]
+
+!unban [Username | ID | Reply]
+
+!banlist
+
+!id [Username | Id | Reply]
+
+!res @username
+
+!res [Reply]
+
+!lock [ads | name | tag | leave | badw | member | chat | farsi | bots]
+
+!unlock [ads | name | tag | leave | badw | member | chat | farsi | bots]
+
+!all
+
+!set[photo | name]
+
+!set [rules | about]
+
+!tagall [MSG]
+
+!who
+
+!filter [+-?] [word]
+
+!set [value] [MSG]
+
+!info [Username | ID | Reply]
+
+!plugins [-+] (Plug Name) chat
+
+!promote [Reply | ID | Username]
  
+!demote [Reply | ID | Username]
+ 
+!setowner [ID | Reply]
+ 
+!setrank [Reply | ID | Username]
+
+!banall [Reply | ID | Username]
+ 
+!unbanall [ID]
+ 
+!add 
+ 
+!rem
+ 
+!leave
+ 
+!setowner [ID | Reply]
+ 
+!kill chat [ID]
+ 
+!bc [GP-ID] [MSG]
+ 
+!all [GP-ID]
+ !addadmin [ID | Username]
+ 
+!removeadmin [ID | Username]
+ 
+!creategroup [Name]
+ 
+!up [Name.format] [Text]
+ 
+!dl [name.format]
+ 
+!echo> [name.format] [Text]
+ 
+!invite [Username | ID | Reply]
+ 
+!stats bot
+ 
+!plugins 
+ 
+!plugins [+-] [Plugname]
+ 
+!reload
+
+!s2a [Text]
+
+!block [user]
+
+!img [Term]
  ]]
  
  local owner = [[
  
- راهنمای فارسی صاحبان گروه :
+!calc [formula]
  
- !promote [Reply | ID | Username]
+!get [Value]
  
- !demote [Reply | ID | Username]
+!filterlist
  
- !setowner [ID | Reply]
+!me
  
- !setrank [Reply | ID | Username]
- ==========================
- به علاوه تمامی دستورات رنک های :
- mod
- و
- member
- ==========================
- جهت دریافت راهنمای رنک های دیگر میتوانید از دستورات زیر استفاده کنید :
+!voice [MSG]
  
- !help owner 
- راهنمای صاحبان
+!time
  
- !help mod
-راهنمای مدیران
+!time [Area]
+ 
+!tex [Msg]
+ 
+!Vox
+ 
+!sticker [Text]
 
-!help member
-راهنمای اعضای معمولی
+!kick [Username | ID | Reply]
+
+!ban [username | ID | Reply]
+
+!unban [Username | ID | Reply]
+
+!banlist
+
+!id [Username | Id | Reply]
+
+!res @username
+
+!res [Reply]
+
+!lock [ads | name | tag | leave | badw | member | chat | farsi | bots]
+
+!unlock [ads | name | tag | leave | badw | member | chat | farsi | bots]
+
+!all
+
+!set[photo | name]
+
+!set [rules | about]
+
+!tagall [MSG]
+
+!who
+
+!filter [+-?] [word]
+
+!set [value] [MSG]
+
+!info [Username | ID | Reply]
+
+!plugins [-+] (Plug Name) chat
+
+!promote [Reply | ID | Username]
  
+!demote [Reply | ID | Username]
+ 
+!setowner [ID | Reply]
+ 
+!setrank [Reply | ID | Username]
+
+!banall [Reply | ID | Username]
+ 
+!unbanall [ID]
+ 
+!add 
+ 
+!rem
+ 
+!leave
+ 
+!setowner [ID | Reply]
+ 
+!kill chat [ID]
+ 
+!bc [GP-ID] [MSG]
+ 
+!all [GP-ID]
+ !addadmin [ID | Username]
+ 
+!removeadmin [ID | Username]
+ 
+!creategroup [Name]
+ 
+!up [Name.format] [Text]
+ 
+!dl [name.format]
+ 
+!echo> [name.format] [Text]
+ 
+!invite [Username | ID | Reply]
+ 
+!stats bot
+ 
+!plugins 
+ 
+!plugins [+-] [Plugname]
+ 
+!reload
+
+!s2a [Text]
+
+!block [user]
+
+!img [Term]
  ]]
  
  local member = [[
  
- راهنمای فارسی عضو ها :
+!calc [formula]
  
- !calc [formula]
+!get [Value]
  
- !get [Value]
+!filterlist
  
- !filterlist
+!me
  
- !info
+!voice [MSG]
  
- !id
+!time
  
- !me
+!time [Area]
  
- !voice [MSG]
+!tex [Msg]
  
- !time
+!Vox
  
- !time [Area]
- 
- !tex [Msg]
- 
- !feedback [msg]
- 
- !Vox
- 
- !sticker [TXT]
- ==========================
- جهت دریافت راهنمای رنک های دیگر میتوانید از دستورات زیر استفاده کنید :
- 
- !help owner 
- راهنمای صاحبان
- 
- !help mod
-راهنمای مدیران
+!sticker [Text]
 
-!help member
-راهنمای اعضای معمولی
+!kick [Username | ID | Reply]
+
+!ban [username | ID | Reply]
+
+!unban [Username | ID | Reply]
+
+!banlist
+
+!id [Username | Id | Reply]
+
+!res @username
+
+!res [Reply]
+
+!lock [ads | name | tag | leave | badw | member | chat | farsi | bots]
+
+!unlock [ads | name | tag | leave | badw | member | chat | farsi | bots]
+
+!all
+
+!set[photo | name]
+
+!set [rules | about]
+
+!tagall [MSG]
+
+!who
+
+!filter [+-?] [word]
+
+!set [value] [MSG]
+
+!info [Username | ID | Reply]
+
+!plugins [-+] (Plug Name) chat
+
+!promote [Reply | ID | Username]
  
+!demote [Reply | ID | Username]
+ 
+!setowner [ID | Reply]
+ 
+!setrank [Reply | ID | Username]
+
+!banall [Reply | ID | Username]
+ 
+!unbanall [ID]
+ 
+!add 
+ 
+!rem
+ 
+!leave
+ 
+!setowner [ID | Reply]
+ 
+!kill chat [ID]
+ 
+!bc [GP-ID] [MSG]
+ 
+!all [GP-ID]
+ !addadmin [ID | Username]
+ 
+!removeadmin [ID | Username]
+ 
+!creategroup [Name]
+ 
+!up [Name.format] [Text]
+ 
+!dl [name.format]
+ 
+!echo> [name.format] [Text]
+ 
+!invite [Username | ID | Reply]
+ 
+!stats bot
+ 
+!plugins 
+ 
+!plugins [+-] [Plugname]
+ 
+!reload
+
+!s2a [Text]
+
+!block [user]
+
+!img [Term]
  ]]
  
  local sudo = [[
+
+!calc [formula]
  
- راهنما فارسی سودو ها :
+!get [Value]
  
+!filterlist
+ 
+!me
+ 
+!voice [MSG]
+ 
+!time
+ 
+!time [Area]
+ 
+!tex [Msg]
+ 
+!Vox
+ 
+!sticker [Text]
+
+!kick [Username | ID | Reply]
+
+!ban [username | ID | Reply]
+
+!unban [Username | ID | Reply]
+
+!banlist
+
+!id [Username | Id | Reply]
+
+!res @username
+
+!res [Reply]
+
+!lock [ads | name | tag | leave | badw | member | chat | farsi | bots]
+
+!unlock [ads | name | tag | leave | badw | member | chat | farsi | bots]
+
+!all
+
+!set[photo | name]
+
+!set [rules | about]
+
+!tagall [MSG]
+
+!who
+
+!filter [+-?] [word]
+
+!set [value] [MSG]
+
+!info [Username | ID | Reply]
+
+!plugins [-+] (Plug Name) chat
+
+!promote [Reply | ID | Username]
+ 
+!demote [Reply | ID | Username]
+ 
+!setowner [ID | Reply]
+ 
+!setrank [Reply | ID | Username]
+
+!banall [Reply | ID | Username]
+ 
+!unbanall [ID]
+ 
+!add 
+ 
+!rem
+ 
+!leave
+ 
+!setowner [ID | Reply]
+ 
+!kill chat [ID]
+ 
+!bc [GP-ID] [MSG]
+ 
+!all [GP-ID]
  !addadmin [ID | Username]
  
- !removeadmin [ID | Username]
+!removeadmin [ID | Username]
  
- !creategroup [Name]
+!creategroup [Name]
  
- !up [Name.format] [Text]
+!up [Name.format] [Text]
  
- !dl [name.format]
+!dl [name.format]
  
- !echo> [name.format] [Text]
+!echo> [name.format] [Text]
  
- !invite [Username | ID | Reply]
+!invite [Username | ID | Reply]
  
- !stats bot
+!stats bot
  
- !plugins 
+!plugins 
  
- !plugins [+-] [Plugname]
+!plugins [+-] [Plugname]
  
- !reload
- 
- ==========================
- به علاوه دسترسی به تمامی دستورات رنک های دیگر
- ==========================
- جهت دریافت راهنمای رنک های دیگر میتوانید از دستورات زیر استفاده کنید :
- 
- !help owner 
- راهنمای صاحبان
- 
- !help mod
-راهنمای مدیران
+!reload
 
-!help member
-راهنمای اعضای معمولی
- ]]
+!s2a [Text]
+
+!block [user]
+
+!img [Term]
+]]
  
  if msg.to.type == 'chat' and matches[1]:lower() == 'help' and matches[2] == nil then 
      
